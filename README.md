@@ -1,12 +1,14 @@
 # IMGUI in .net howto
   
-## 1. Add ImGui.NET as a nuget package
+More info here; http://flatredball.com/news/dear-imgui-integration/ 
+  
+## Add ImGui.NET as a nuget package
   
 dotnet add package ImGui.NET  
 
 ## Copy Files from imgui.net xna sample
   
-. COPY the ImGuiRenderer from here which includes these files:  
+COPY the ImGuiRenderer.cs from this repo, which includes these files:  
   
 https://github.com/mellinoe/ImGui.NET/blob/master/src/ImGui.NET.SampleProgram.XNA/ImGuiRenderer.cs
 https://github.com/mellinoe/ImGui.NET/blob/master/src/ImGui.NET.SampleProgram.XNA/DrawVertDeclaration.cs
